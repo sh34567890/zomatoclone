@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    color: white;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 700px;
+    
+}
+.header-img{
+    width: 100%;
+}
+.logo{
+    width: 310px;
+    padding-left: 450px;
+}
+
+
+h1{
+    color: white;
+    padding-left: 300px;
+}
+
+.header-info{
+    display: flex;
+    transform: translate(0, -200%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 28px;
+   
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.parent1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 50px;
+
+
+    
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(208, 193, 193);
+    border-radius: 30px;
+    width: 380px;
+    
+}
+.text-child1{
+    background-color: white;
+    transform: translate(0,-50%);
+    padding-left: 15px;
+    
+}
+.search-bar{
+    padding: 20px;
+    width: 500px;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-left: 346px;
+}
+
+.img{
+    border-radius: 20px;
+    width: 380px;
+    height: 220px;
+    
+    
+}
+.collections{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+}
+.c-h2{
+    font-size: 24px;
+}
+.red-text{
+    color: Rgb(255, 99, 117);
+}
+.collection-text{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+.places{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-child2{
+    transform: translate(0, -150%);
+    color: white;
+    padding-left: 12px;
+}
+.child2-img{
+    border-radius: 9px;
+    width: 300px;
+}
+.box-text{
+    font-weight: bolder;
+}
+.delhi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.sectors{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+ 
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 13px;
+    border: 1px solid rgb(208, 193, 193); 
+    border-radius: 5px; 
+    gap: 200px;
+    margin-bottom: 10px; 
+    padding: 5px;      
+}
+.more{
+    gap: 20px;
+    border-radius: 13px;
+    border: 1px solid rgb(208, 193, 193); 
+    border-radius: 5px; 
+    gap: 200px;
+    margin-bottom: 10px; 
+    padding: 30px;      
+
+}
+.cp{
+    display: flex;
+    flex-direction: column;
+    gap: px;
+}
+.app-link{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 248, 241);
+    gap: 700px;
+}
+.app-img{
+    display: flex;
+    width: 40px;
+}
+.link-form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    font-size: 17px;
+    
+}
+.h2{
+    font-size: 24px;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+}
+.email-input{
+    display: flex;
+    flex-direction: row;
+}
+.link-button{
+    background-color: Rgb(255, 99, 117);
+    color: white;
+    margin-left: 6px;
+    border-radius: 5px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.buttons-footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.img-button{
+    width: 160px;
+}
+
+.logo-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 800px;
+}
+.buttons2{
+    padding: 8px;
+    width: 111px;
+    background-color: white;
+    border-radius: 8px;
+    border-width: px;
+  
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    max-width: fit;
+   
+    background-color: rgb(252, 249, 249);
+    border-radius: 8px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.faq-text{
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+.faq-qn{
+    margin-bottom: 10px;
+    border: 1px solid rgb(208, 193, 193);
+    border-radius: 10px;
+    padding: 11px;
+    background-color: white;
+}
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+  
+}
+.link-columns{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    gap: 50px;
+    margin-left: 30px;
+}
+.footer-logo{
+    width: 150px;
+}
